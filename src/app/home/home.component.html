@@ -1,0 +1,22 @@
+
+<a routerLink='/enquiry'>addproduct</a>
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>color</th>
+          
+            </tr>
+    </thead>
+    <tr *ngFor="let product of products">
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.color}}</td>
+        
+    </tr>   
+
+        
+
+</table>
+

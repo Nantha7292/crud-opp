@@ -1,0 +1,16 @@
+<a routerLink='/'>back</a>
+
+
+<div class=nan>
+    <form id="formNewproduct"name="formNewproduct"  #productData="ngForm" (ngsubmit)="addNewProduct(productData.value)">
+    
+        <label>Name:</label>
+        <input type="text" name="name"  id="name"  Placeholder=" Name"  ngmodel><br><br>
+    
+        <label>color:</label>
+        <input type="text" name="color"  id="color"  Placeholder=" color"  ngmodel><br><br>
+    
+        
+        <input type="submit" value="Add Product">
+        </form>
+        </div>
